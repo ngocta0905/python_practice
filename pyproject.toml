@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "practice-python"
+version = "0.1.0"
+description = "Practice for Ruby"
+authors = ["Ruby"]
+readme = "README.md"
+packages = [{include = "practice_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
